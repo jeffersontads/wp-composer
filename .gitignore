@@ -1,23 +1,23 @@
-/*        # ignoramos TUDO do repositório
-!/composer.json
-
-# Realizando tratamento de ignores de temas e plugins
-# ver: https://stackoverflow.com/questions/5533050/gitignore-exclude-folder-but-include-specific-subfolder 
-# na resposta com título "gitignore.txt: clarify recursive nature of excluded directories"
-
-# Designoramos o diretório wp-content
-!/wp-content
-
-# e ignoramos tudo (parece estranho, mas é assim que funciona)
-/wp-content/*
-
-# o mesmo faremos para os diretorios de plugins e temas, ignoramos
-# o diretório como um todo e designoramos os plugins e temas que 
-# estamos desenvolvendo somente
-
-# Tratando ignores para os plugins desejados
-!/wp-content/plugins
-
-
-# Tratando os ignores para os temas desejados
-!/wp-content/themes
+# This is a template .gitignore file for git-managed WordPress projects.
+#
+# Fact: you don't want WordPress core files, or your server-specific
+# configuration files etc., in your project's repository. You just don't.
+#
+# Solution: stick this file up your repository root (which it assumes is
+# also the WordPress root directory) and add exceptions for any plugins,
+# themes, and other directories that should be under version control.
+#
+# See the comments below for more info on how to add exceptions for your
+# content. Or see git's documentation for more info on .gitignore files:
+# http://kernel.org/pub/software/scm/git/docs/gitignore.html
+ 
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!.gitignore
+!wp-content/
+ 
+# Ignore everything in the "wp-content" directory, except the "plugins"
+# and "themes" directories.
+wp-content/*
+!/app/wp-content/plugins/
+!/app/wp-content/plugins/
