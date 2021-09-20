@@ -1,0 +1,23 @@
+/*        # ignoramos TUDO do repositório
+!/composer.json
+
+# Realizando tratamento de ignores de temas e plugins
+# ver: https://stackoverflow.com/questions/5533050/gitignore-exclude-folder-but-include-specific-subfolder 
+# na resposta com título "gitignore.txt: clarify recursive nature of excluded directories"
+
+# Designoramos o diretório wp-content
+!/wp-content
+
+# e ignoramos tudo (parece estranho, mas é assim que funciona)
+/wp-content/*
+
+# o mesmo faremos para os diretorios de plugins e temas, ignoramos
+# o diretório como um todo e designoramos os plugins e temas que 
+# estamos desenvolvendo somente
+
+# Tratando ignores para os plugins desejados
+!/wp-content/plugins
+
+
+# Tratando os ignores para os temas desejados
+!/wp-content/themes
