@@ -8,13 +8,13 @@ no windows:
 
 <VirtualHost *:80><br>
 	ServerName nomedoprojeto.local<br><br>
-	DocumentRoot "c:/wamp64/www/nomedoprojeto/app/"<br>
-	<Directory  "c:/wamp64/www/nomedoprojeto/app/"><br>
+	DocumentRoot "c:/wamp64/www/nomedoprojeto/app/"
+	<Directory  "c:/wamp64/www/nomedoprojeto/app/"
 		Options +Indexes +Includes +FollowSymLinks +MultiViews<br><br>
-		AllowOverride All<br>
-		Require local<br>
-	</Directory><br>
-</VirtualHost><br>
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
 
 host local no windows
 
