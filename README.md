@@ -2,6 +2,7 @@ Projeto wordpress com o gerenciador de pacotes composer!
 
 <h2>Repositório para testes usando composer para gerenciar plugins e temas do wordpress</h2>
 
+<h2>Configuração no windows</h2>
 Apos clonar o repositorio, na pasta raiz de um composer install
 como as pastas do WP foram alteradas você precisa configurar o VHOSTS do apache de sua máquina (APACHE)
 <b>no windows:</b>
