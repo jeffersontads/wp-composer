@@ -5,7 +5,7 @@ Projeto wordpress com o gerenciador de pacotes composer!
 Apos clonar o repositorio, na pasta raiz de um composer install
 como as pastas do WP foram alteradas você precisa configurar o VHOSTS do apache de sua máquina (APACHE)
 no windows:
-<!--
+<pre>
 <VirtualHost *:80>
 	ServerName nomedoprojeto.local<br>
 	DocumentRoot "c:/wamp64/www/nomedoprojeto/app/"<br>
@@ -15,8 +15,7 @@ no windows:
 		Require local
 	</Directory>
 </VirtualHost>
--->
-
+</pre>
 <h2>host local no windows</h2>
 
 127.0.0.1 nomedoprojeto.local<br><br>
@@ -28,7 +27,7 @@ agora é so acessar do seu navegador http://nomedoprojeto.local<br>
 ###### CONFIGURAR VHOST ##########
 sudo nano /etc/apache2/http-vhosts
 inserir dados do vhosts
-<!--
+<pre>
 <VirtualHost *:80>
    ServerName nomedoprojeto.local<br><br>
 
@@ -46,7 +45,7 @@ inserir dados do vhosts
         ErrorLog /home/nomedoseuusuario/errors_apache/error.log<br>
         CustomLog ${APACHE_LOG_DIR}/access.log combined<br>
 </VirtualHost><br>
--->
+</pre>
 <b>salve e feche</b> 
 
 Agora no terminal digite os seguintes comandos:
