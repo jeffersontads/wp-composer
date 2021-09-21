@@ -4,18 +4,10 @@ Projeto wordpress com o gerenciador de pacotes composer!
 
 Apos clonar o repositorio, na pasta raiz de um composer install
 como as pastas do WP foram alteradas você precisa configurar o VHOSTS do apache de sua máquina (APACHE)
-no windows:
-<pre>
-<VirtualHost *:80>
-	ServerName nomedoprojeto.local<br>
-	DocumentRoot "c:/wamp64/www/nomedoprojeto/app/"<br>
-	<Directory  "c:/wamp64/www/nomedoprojeto/app/"<br>
-		Options +Indexes +Includes +FollowSymLinks +MultiViews<br>
-		AllowOverride All
-		Require local
-	<Directory>
-<VirtualHost>
-</pre>
+<b>no windows:</b>
+ 
+ ![image](https://user-images.githubusercontent.com/35350879/134098181-f9e96c3c-6298-4cb0-bd4d-80539cd47881.png)
+
 
 <h2>host local no windows</h2>
 
