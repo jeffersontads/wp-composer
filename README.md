@@ -55,7 +55,7 @@ sudo a2ensite && a2enmod rewrite && sudo /etc/init.d/apache2 restart
 sudo nano /etc/hosts
 127.0.0.1       nomedoprojeto.local
 
-<h2>EXTRAS (NÃO É NECESSARIO MAIS SE PRECISAR) SE BAIXAR O BANCO DE PRODUÇÃO OU DE ALGUM OUTRO LUGAR ESPECIFICO<h2><br><br>
+<h3>EXTRAS (NÃO É NECESSARIO MAIS SE PRECISAR) SE BAIXAR O BANCO DE PRODUÇÃO OU DE ALGUM OUTRO LUGAR ESPECIFICO</h3>
 ##### REPLACE BANCO DE DADOS COM WP-CLI ########
 
 wp --allow-root search-replace 'https://nomedoprojeto.com.br' 'http://nomedoprojeto.local' --recurse-objects --skip-columns=guid --skip-tables=wp_users<br>
