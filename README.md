@@ -6,7 +6,7 @@ Apos clonar o repositorio, na pasta raiz de um composer install
 como as pastas do WP foram alteradas você precisa configurar o VHOSTS do apache de sua máquina (APACHE)
 no windows:
 
-<VirtualHost *:80><br>
+#<VirtualHost *:80>
 	ServerName nomedoprojeto.local<br>
 	DocumentRoot "c:/wamp64/www/nomedoprojeto/app/"<br>
 	<Directory  "c:/wamp64/www/nomedoprojeto/app/"<br>
@@ -14,7 +14,7 @@ no windows:
 		AllowOverride All
 		Require local
 	</Directory>
-</VirtualHost>
+#</VirtualHost>
 
 host local no windows
 
