@@ -9,36 +9,21 @@ como as pastas do WP foram alteradas você precisa configurar o VHOSTS do apache
  ![image](https://user-images.githubusercontent.com/35350879/134098181-f9e96c3c-6298-4cb0-bd4d-80539cd47881.png)
 
 
-<h2>host local no windows</h2>
+<h2><b>host local no windows</b></h2>
 
-127.0.0.1 nomedoprojeto.local<br><br>
-::1 nomedoprojeto.local<br>
-agora é so acessar do seu navegador http://nomedoprojeto.local<br>
+![image](https://user-images.githubusercontent.com/35350879/134098257-cfc5b7ab-19fb-4d44-98a0-31f7a9f9e3cd.png)
 
-  <h2>NO LINUX: </h2>
+feito isso basta 
+acessar do seu navegador http://nomedoprojeto.local
+
+  <h2>CONFIGURAR VHOST NO LINUX: </h2>
 
 ###### CONFIGURAR VHOST ##########
 sudo nano /etc/apache2/http-vhosts
-inserir dados do vhosts
-<pre>
-<VirtualHost *:80>
-   ServerName nomedoprojeto.local<br><br>
+Inserir dados para config do vhosts
 
-       <IfModule mpm_itk_module><br>
-               AssignUserId jefferson jefferson<br>
-       </IfModule><br>
+![image](https://user-images.githubusercontent.com/35350879/134098453-227efb19-9f07-458d-8f8c-db612937e3c9.png)
 
-    <Directory "/var/www/html/nomedoprojeto/app/"><br>
-        AllowOverride All<br>
-    </Directory><br>
-
-        ServerAdmin seu email<br>
-        DocumentRoot /var/www/html/nomedoprojeto/app/<br>
-
-        ErrorLog /home/nomedoseuusuario/errors_apache/error.log<br>
-        CustomLog ${APACHE_LOG_DIR}/access.log combined<br>
-</VirtualHost><br>
-</pre>
 <b>salve e feche</b> 
 
 Agora no terminal digite os seguintes comandos:
