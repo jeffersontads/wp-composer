@@ -1,4 +1,5 @@
-# wp-composer
+Projeto wordpress com o gerenciador de pacotes composer!
+
 <h2>Repositório para testes usando composer para gerenciar plugins e temas do wordpress</h2>
 
 Apos clonar o repositorio, na pasta raiz de um composer install
@@ -19,11 +20,9 @@ host local no windows
 
 127.0.0.1 nomedoprojeto.local<br><br>
 ::1 nomedoprojeto.local<br>
-
 agora é so acessar do seu navegador http://nomedoprojeto.local<br>
-
 #########################################
-  <h2>NO LINUX: <h2>
+  <h2>NO LINUX: </h2>
 #########################################
 
 ###### CONFIGURAR VHOST ##########
