@@ -13,9 +13,10 @@ no windows:
 		Options +Indexes +Includes +FollowSymLinks +MultiViews<br>
 		AllowOverride All
 		Require local
-	</Directory>
-</VirtualHost>
+	<Directory>
+<VirtualHost>
 </pre>
+
 <h2>host local no windows</h2>
 
 127.0.0.1 nomedoprojeto.local<br><br>
