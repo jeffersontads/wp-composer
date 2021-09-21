@@ -16,7 +16,7 @@ como as pastas do WP foram alteradas você precisa configurar o VHOSTS do apache
 feito isso basta 
 acessar do seu navegador http://nomedoprojeto.local
 
-  <h2>CONFIGURAR VHOST NO LINUX: </h2>
+  <h2>CONFIGURAR VHOST NO LINUX (UBUNTU/DEBIAN): </h2>
 
 ###### CONFIGURAR VHOST ##########
 sudo nano /etc/apache2/http-vhosts
@@ -26,10 +26,10 @@ Inserir dados para config do vhosts
 
 <b>salve e feche</b> 
 
-Agora no terminal digite os seguintes comandos:
+Agora no terminal digite os seguintes comandos:<br>
 sudo a2ensite && a2enmod rewrite && sudo /etc/init.d/apache2 restart
 
-### CONFIGURAR HOST LOCAL ###
+### CONFIGURAR HOST LOCAL LINUX (UBUNTU/DEBIAN) ###
 sudo nano /etc/hosts
 127.0.0.1       nomedoprojeto.local
 
