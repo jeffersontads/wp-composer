@@ -19,7 +19,7 @@ acessar do seu navegador http://nomedoprojeto.local
   <h2>CONFIGURAR VHOST NO LINUX (UBUNTU/DEBIAN): </h2>
 
 ###### CONFIGURAR VHOST ##########
-sudo nano /etc/apache2/http-vhosts
+sudo nano /etc/apache2/http-vhosts<br>
 Inserir dados para config do vhosts
 
 ![image](https://user-images.githubusercontent.com/35350879/134098453-227efb19-9f07-458d-8f8c-db612937e3c9.png)
@@ -30,8 +30,10 @@ Agora no terminal digite os seguintes comandos:<br>
 sudo a2ensite && a2enmod rewrite && sudo /etc/init.d/apache2 restart
 
 ### CONFIGURAR HOST LOCAL LINUX (UBUNTU/DEBIAN) ###
-sudo nano /etc/hosts
-127.0.0.1       nomedoprojeto.local
+
+sudo nano /etc/hosts<br>
+
+127.0.0.1       nomedoprojeto.local<br>
 
 <h3>EXTRAS (NÃO É NECESSARIO MAIS SE PRECISAR) SE BAIXAR O BANCO DE PRODUÇÃO OU DE ALGUM OUTRO LUGAR ESPECIFICO</h3>
 ##### REPLACE BANCO DE DADOS COM WP-CLI ########
