@@ -7,10 +7,10 @@ como as pastas do WP foram alteradas você precisa configurar o VHOSTS do apache
 no windows:
 
 <VirtualHost *:80><br>
-	ServerName nomedoprojeto.local<br><br>
-	DocumentRoot "c:/wamp64/www/nomedoprojeto/app/"
-	<Directory  "c:/wamp64/www/nomedoprojeto/app/"
-		Options +Indexes +Includes +FollowSymLinks +MultiViews<br><br>
+	ServerName nomedoprojeto.local<br>
+	DocumentRoot "c:/wamp64/www/nomedoprojeto/app/"<br>
+	<Directory  "c:/wamp64/www/nomedoprojeto/app/"<br>
+		Options +Indexes +Includes +FollowSymLinks +MultiViews<br>
 		AllowOverride All
 		Require local
 	</Directory>
